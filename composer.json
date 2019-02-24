@@ -1,0 +1,35 @@
+{
+    "name": "poodev/yii2-fontawesome4",
+    "description": "Asset Bundle of Font Awesome 4 for Yii2",
+    "keywords": [
+        "yii",
+        "font",
+        "awesome",
+        "asset",
+        "bundle"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/poodev/yii2-fontawesome4/issues",
+        "source": "https://github.com/poodev/yii2-fontawesome4"
+    },
+    "authors": [
+        {
+            "name": "Agus Suhartono",
+            "email": "agus.suhartono@gmail.com",
+            "homepage": "https://agus.pro/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "^2.0.0",
+        "bower-asset/font-awesome" : "~4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "poo\\fontawesome4\\": "src"
+        }
+    }
+}
